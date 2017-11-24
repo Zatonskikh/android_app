@@ -34,12 +34,11 @@ public class MainActivity extends AppCompatActivity {
                     switch(view.getId()){
                         case (R.id.button):
 
-                            if (!mEdit.getText().toString().isEmpty()){
-                                mTextView.setText(mEdit.getText().toString());
+                            if (!mEdit.getText().toString().trim().isEmpty()){
+                                mTextView.setText(mEdit.getText().toString().trim());
                                 break;
                             }
                             else{
-                                mTextView.setText(getString(R.string.string_to_show));
                                 break;
                             }
                         case(R.id.reset_state):
