@@ -2,18 +2,14 @@ package com.example.zatonskihev.singlepageapp.model.mainActivity;
 
 public class MainActivityModelImpl implements MainActivityModel {
 
-    @Override
-    public void clearEditText() {
+    private String textToSHow;
 
+    @Override
+    public void setText(String text) {
+        textToSHow = text;
     }
 
-    @Override
-    public void clearTextView() {
-
-    }
-
-    @Override
-    public void setText() {
-
+    public String getText(){
+        return textToSHow;
     }
 }

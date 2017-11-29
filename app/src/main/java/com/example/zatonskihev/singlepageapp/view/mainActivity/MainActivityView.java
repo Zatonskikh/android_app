@@ -1,8 +1,12 @@
 package com.example.zatonskihev.singlepageapp.view.mainActivity;
 
-public class MainActivityView {
+import android.widget.TextView;
 
-    public void showEnteredText(){
+public interface MainActivityView {
 
-    }
+    void showText(String textToShow);
+
+    void resetText(String textToReplace, TextView textView);
+
+
 }

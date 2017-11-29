@@ -2,9 +2,7 @@ package com.example.zatonskihev.singlepageapp.model.mainActivity;
 
 public interface MainActivityModel {
 
-    public void clearEditText();
+    void setText(String text);
 
-    public void clearTextView();
-
-    public void setText();
+    String getText();
 }
