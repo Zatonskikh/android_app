@@ -20,3 +20,5 @@ build/android-profile/profile-2017-11-24-22-15-08-474.json
 build/android-profile/profile-2017-11-24-22-15-08-474.rawproto
 *.json
 *.rawproto
+.idea/
+.gradle/
